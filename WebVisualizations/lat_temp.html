@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Latitude vs. Temperature</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-md-12'>
+                <div class='topnav'>
+                    <a class='active' href="data.html">Data</a>
+                    <a class='active' href="comparisons.html">Comparison</a>
+                    <div class='dropdown'>
+                        <a class='dropbtn'>Plots<i class='fa fa-caret-down'></i></a>
+                        <div class='dropdown-content'>
+                            <a href='lat_temp.html'>Max Temperature</a>
+                            <a href='lat_hum.html'>Humidity</a>
+                            <a href='lat_cloud.html'>Cloud Coverage</a>
+                            <a href='lat_wind.html'>Wind Speed</a>
+                        </div>
+                    </div>
+                    <a class='active' href="landing_page.html">Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='container'>
+        <div class='row'>
+            <div class="col-md-8">
+                <div class='lightgrey'>
+                    <h2 class='center'>Maximum Temperature</h2><br>
+                    <img class='visualization' border="0" alt="Lat vs Temp" src="Lat_Temp.png" width="500" height="500"><br>
+                    <p>This graph illustrates the relationship between a city's latitude and the maximum temperature recorded for that city.
+                        The peak at around 0 degrees of latitude indicates that temperatures are hottest near the equator. As you get farther
+                        from the equator in both the north and south directions, temperatures drop.
+                    </p>
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <div class='lightgrey'>
+                    <h2 class='center'>Visualizations</h2><br>
+                    <a href="Lat_Temp.html">
+                        <img border="0" alt="Lat vs Temp" src="Lat_Temp.png" width="110" height="110">
+                    </a>
+                    <a href="lat_hum.html">
+                        <img border="0" alt="Lat vs Hum" src="Lat_Hum.png" width="110" height="110">
+                    </a><br>
+                    <a href="lat_cloud.html">
+                        <img border="0" alt="Lat vs Cloud" src="Lat_Cloud.png" width="110" height="110">
+                    </a>
+                    <a href="lat_wind.html">
+                        <img border="0" alt="Lat vs Wind" src="Lat_Wind.png" width="110" height="110">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
